@@ -30,6 +30,8 @@ int main() {
 
     wt[0] = 0; 
     tat[0] = bt[0]; 
+    wtavg=0;
+    tatavg=0;
 
    
     for (i = 1; i < n; i++) {
@@ -48,3 +50,13 @@ int main() {
 
     return 0;
 }
+//Enter the number of processes: 3
+//Enter the burst time for process P0: 23
+//Enter the burst time for process P1: 1
+//Enter the burst time for process P2: 21
+//	Process		Burst Time	Waiting Time	Turnaround Time
+//	P1		1		0		1
+//	P2		21		1		22
+//	P0		23		22		45
+//Average Waiting Time: 7.666667
+//Average Turnaround Time: 22.333334
