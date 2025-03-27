@@ -40,3 +40,14 @@ int main() {
 
     return 0;
 }
+
+//Enter number of processes: 3
+//Enter the burst time of process 0: 24
+//Enter the burst time of process 1: 3
+//Enter the burst time of process 2: 3
+//	PROCESS	BURST TIME	WAITING TIME	TURNAROUND TIME
+//  P0		24		0		24
+ //P1		3		24		27
+//	P2		3		27		30
+//Average Waiting Time: 17.000000
+//Average Turnaround Time: 19.000000
